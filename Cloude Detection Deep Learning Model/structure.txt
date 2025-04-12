@@ -1,0 +1,19 @@
+cloud_detection_project/
+├── data/                    # Dataset storage
+│   ├── raw/                 # Original 38-Cloud dataset
+│   └── processed/           # Processed data
+├── models/                  # Saved model checkpoints
+├── src/                     # Source code
+│   ├── data_preparation.py  # Data loading and preprocessing
+│   ├── model.py             # RS-Net model architecture
+│   ├── train.py             # Training script
+│   ├── evaluate.py          # Evaluation script
+│   └── predict.py           # Inference script
+├── notebooks/               # Jupyter notebooks for exploration
+├── configs/                 # Configuration files
+├── utils/                   # Utility functions
+└── README.md                # Project documentation
+
+
+
+
